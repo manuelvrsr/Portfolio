@@ -1,0 +1,141 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ .head{
+     display: inline;
+     align-items: center;
+     width: 100%;
+     height: 170px;
+     display: flex;
+     flex-direction: row;
+     background-image: url(./images/dark-wood-texture.jpg);
+     color: white;
+     
+     
+     
+ }
+ .h11 ::after {
+     content: "Portfolio";
+ 
+     
+   }
+ .headlink {
+     display: inline-block;
+     flex-direction: column;
+     
+ }
+ .projects {
+     float: right;
+     flex-wrap: wrap;
+     background-image: url(./images/wood.jpg);
+ }
+ nav {
+     display: flex;
+     align-items: center;
+     flex-direction: row;
+     line-height: 2;
+     font-size: 24px;
+ }
+ body {
+     display: flex;
+     background-color: rgb(255, 255, 255);
+     flex-wrap: wrap;
+     flex-direction: column;
+     font-size: 16px;
+ }
+ .about{
+     float: left;
+ }
+ .sidebar {
+     position: absolute;
+     width: 200px;
+     float: left;
+ }
+ 
+ .me {
+     background-color: gray;
+     margin: 5;
+ }
+ .projects {
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    text-align: center;
+    color: white;
+    background-color: gray;
+    width: 900px;
+     
+ }
+ 
+ 
+ 
+ .boxtext {
+     position: absolute;
+     font-size: 40px;
+     top: 50%;
+     left: 50%;
+     background-color: lightslategray
+ 
+ }
+ 
+ .boxtext1 {
+     position: absolute;
+     font-size: 40px;
+     top: 50%;
+     left: 50%;
+     background-color: lightslategray
+ 
+ 
+ 
+     
+ }
+ main div {
+     float: left;
+ }
+ .footer {
+     background-color: rgb(77, 74, 74);
+     height: 170px;
+ }
+ .sectionW{
+     width: 400px;
+ }
+ .games{ 
+     background-image: url(./images/retro-game-cover-image-886x590.jpg);
+     width: 400px;
+     height: 250px;
+     float: none;
+     margin: 5px;
+ }
+ .websites {
+    background-image: url(./images/really-cool-websites.jpg);
+    width: 400px;
+    height: 250px;
+    float: none;
+    margin: 5px;
+
+ }
+ .random {
+    background-image: url(./images/featured_image-1.webp);
+    width: 400px;
+    height: 250px;
+    float: none;
+    margin: 5px;
+    background-size: cover;
+
+ }
+ .cool {
+    background-image: url(./images/jQBb9P4LeW36RbVtcFmRag.jpg);
+    width: 400px;
+    height: 250px;
+    float: none;
+    margin: 5px;
+    background-size: cover;
+ }
+ .gamestext {
+    margin-top: 100px; 
+    background-image: url(./images/wood.jpg);
+    color: white;
+    width: 110px;
+    border: white;
+    
+    }
