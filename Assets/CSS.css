@@ -1,0 +1,73 @@
+* {
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.head{
+    display: inline;
+    align-items: center;
+    width: 100%;
+    height: 170px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(77, 74, 74);
+    color: white;
+    
+    
+}
+header h1 ::after{
+    content: "Portfolio";
+    color: lightslategray;
+  }
+.headlink {
+    display: inline-block;
+    flex-direction: column;
+    
+}
+nav {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    line-height: 2;
+    font-size: 24px;
+}
+body {
+    display: flex;
+    background-color: rgb(238, 230, 216);
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-size: 16px;
+}
+/*.sidebar {
+    padding: 25px;
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    float: left;
+}
+*/
+.me {
+    background-color: gray;
+}
+.projects {
+    flex-wrap: wrap;
+    position: relative;
+    text-align: center;
+    color: white;
+    background-color: gray;
+    width: 200px;
+}
+/*.sidebar {
+    background-color: lightslategray;
+}
+*/
+.boxtext {
+    position: absolute;
+    font-size: 40px;
+    left: 0;
+}
+.footer {
+    height: 170px;
+    background-color: gray;
+}
+.boxes{
+    width: 200px;
+}
